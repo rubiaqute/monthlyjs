@@ -1,0 +1,1 @@
+This is the place for completed challenges in Monthly JS Challenges 2023 (https://www.monthlyjs.com/)
