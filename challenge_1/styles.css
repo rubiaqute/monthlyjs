@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.line {
+    width: 50px;
+    height: 5px;
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.icon:hover > .line.untransformed {
+    background-color: #f10fc0;
+}
+
+.line.transformed {
+    background-color: yellow;
+}
+
+.line-1.transformed {
+    width: 25px;
+    transform: translateY(8px) rotate(325deg);
+}
+
+.line-2.transformed {
+    width: 49px;
+    transform: translateX(1px) rotate(180deg);
+}
+
+.line-3.transformed {
+    width: 25px;
+    transform: translateY(-8px) rotate(395deg);
+}
+
+
